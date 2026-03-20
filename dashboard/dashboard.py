@@ -30,6 +30,6 @@ with col2:
 
 st.subheader("Flood Risk Count")
 
-if "risk" in data.columns:
-    risk_counts = data["risk"].value_counts()
+if "risks" in data.columns:
+    risk_counts = data["risks"].value_counts()
     st.bar_chart(risk_counts)
